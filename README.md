@@ -1,10 +1,12 @@
-# Array of Acoustic Doppler Profiler system: Array design and velocity processing toolbox
+# ADP Array Matlab toolbox 
 
-Tools enabling the design of Acoustic Doppler Profiler arrays of any geometry along with the conversion of acquired along-beam velocities to the Cartesian components of velocity.
+ Array of Acoustic Doppler Profiler system: Array design and velocity processing toolbox
 
 <a href="https://google.com"> DOI link TBD </a>
 
 ### Purpose
+
+These tools enable the design of Acoustic Doppler Profiler arrays of any geometry  along with the conversion of acquired along-beam velocities to the Cartesian components of velocity.
 
 
 ### Documentation
