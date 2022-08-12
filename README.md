@@ -1,8 +1,21 @@
-# Sample GitLab Project
+# Array of Acoustic Doppler Profiler system: Array design and velocity processing toolbox
 
-This sample project shows how a project in GitLab looks for demonstration purposes. It contains issues, merge requests and Markdown files in many branches,
-named and filled with lorem ipsum.
+Tools enabling the design of Acoustic Doppler Profiler arrays of any geometry along with the conversion of acquired along-beam velocities to the Cartesian components of velocity.
 
-You can look around to get an idea how to structure your project and, when done, you can safely delete this project.
+<a href="https://google.com"> DOI link TBD </a>
 
-[Learn more about creating GitLab projects.](https://docs.gitlab.com/ee/gitlab-basics/create-project.html)
+### Purpose
+
+
+### Documentation
+
+### Examples 
+
+### Install Package
+
+### Citing ADP Array Toolbox 
+Using ADP Array Toolbox in your work? Cite as: 
+TBD
+
+--- 
+copyrights below.. 
