@@ -2,7 +2,7 @@
 % marilou.jourdain@ed.ac.uk
 
 % Example 3: Define beam orientation angles, cell sizes and blanking 
-% distances for an actuated 9 beam C-ADP in a circular configuation
+% distances for an actuated 9 beam C-ADP in a circular configuration
 
 clear 
 close all
