@@ -2,8 +2,8 @@
 % marilou.jourdain@ed.ac.uk
 
 % Example 4: Convert velocity acquired with a horizontal C-ADP from along 
-% beam velocities to Cartesian component of velocity from example aquired
-% data
+% beam velocities to Cartesian component of velocity from example acquired
+% data "Example_Beam_data_sync.mat". 
 
 clear 
 close all
