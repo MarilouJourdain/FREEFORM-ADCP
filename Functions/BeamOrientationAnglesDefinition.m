@@ -11,7 +11,7 @@ function [theta,phi,T] = BeamOrientationAnglesDefinition(BO,FP)
 % the associated transformation matrix.
 
 % inputs: 
-% - BO: Beam origin coordinates. b x 3 matrix containg x y z Cartesian 
+% - BO: Beam origin coordinates. b x 3 matrix containing x y z Cartesian 
 %       coordinates of each beam origin in meter, where b is the number of 
 %       beam.
 % - FP: Focal point coordinates. Vector [x y z] containing the Cartesian
