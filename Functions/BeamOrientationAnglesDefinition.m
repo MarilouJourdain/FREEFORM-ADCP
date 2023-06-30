@@ -19,9 +19,9 @@ function [theta,phi,T] = BeamOrientationAnglesDefinition(BO,FP)
 %       frame as beam origin.
 
 % ouputs:  
-% - theta:  Azimuth angle. Vector of length b containg the azimuth angle 
+% - theta:  Azimuth angle. Vector of length b containing the azimuth angle 
 %           for each acoustic beam, in radian.
-% - phi:    Polar angle. Vector of length b containg the polar angle for
+% - phi:    Polar angle. Vector of length b containing the polar angle for
 %           each acoustic beam, in radian.
 % - T:      Transformation matrix. b x 3 matrix, that enables derivation of 
 %           Cartesian components of velocityand Acoustic beam and 
