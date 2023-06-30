@@ -1,6 +1,8 @@
 # ADP Array Matlab toolbox 
 
- Array of Acoustic Doppler Profiler system: Array design and velocity processing toolbox
+Written in Matlab version R2022b.
+
+Array of Acoustic Doppler Profiler system: Array design and velocity processing toolbox
 
 <a href="https://google.com"> DOI link TBD </a>
 
@@ -52,12 +54,16 @@ _[CS,BD] = CellBlankingDefinition(BO,FP,CS_in,plan,T)_
 
 
 
-
-
-
 ### Examples 
 
-### Install Package
+- **Example1\_Define\_CADP.m:** Define beam orientation angles, cell sizes and blanking distances for a fixed 9 beam C-ADP in a circular configuration. 
+    
+- **Example2\_Define\_Distributed\_ADP.m:** Compute measurement cell centroids in Cartesian coordinates for a set-up of two 4-beam D-ADPs, 5m apart.
+
+- **Example3\_Define\_Actuated\_CADP.m:** Define beam orientation angles, cell sizes and blanking  distances for an _actuated_ 9 beam C-ADP in a circular configuration.
+
+- **Example4\_Cartesian\_Vel\_from\_horizontal\_CADP.m:** Convert velocity acquired with a horizontal C-ADP from along beam velocities to Cartesian component of velocity from example acquired data: "Example\_Beam\_data\_sync.mat".
+
 
 ### Citing ADP Array Toolbox 
 Using ADP Array Toolbox in your work? Cite as: 
