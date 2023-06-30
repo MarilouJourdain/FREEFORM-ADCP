@@ -16,6 +16,9 @@ function G = BeamCellMappingCartesian(BO,T,NC,CS,BD)
 % - T:  Transformation matrix. b x 3 matrix, that enables derivation of 
 %       Cartesian components of velocityand Acoustic beam and 
 %       measurement cell mapping in Cartesian coordinates.
+%
+% - NC: Number of measurement cells.
+%
 % - CS: Vector of length b, where b is the number of beam. Contains the 
 %       calculated cell sizes for each acoustic beam
 % - BD: Vector of length b, where b is the number of beam. Contains the 
