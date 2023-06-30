@@ -2,7 +2,7 @@
 % marilou.jourdain@ed.ac.uk
 
 % Example 2: Compute measurement cell centroids in Cartesian coordinates 
-% for a ste-up of two 4-beam D-ADPs, 5m apart.
+% for a set-up of two 4-beam D-ADPs, 5m apart.
 
 clear 
 close all
