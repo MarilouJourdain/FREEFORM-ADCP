@@ -7,7 +7,7 @@
 function G = BeamCellMappingCartesian(BO,T,NC,CS,BD)
 
 % Function that calculates the centroid of each measurement cells in 
-% Cartesian corrdinates, in the same reference frame as the beam origins.
+% Cartesian coordinates, in the same reference frame as the beam origins.
 
 % Inputs: 
 % - BO: Beam origin coordinates. b x 3 matrix containg x y z Cartesian 
