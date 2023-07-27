@@ -4,11 +4,11 @@
 
 % Function: ------- CellBlankingDefintion ---------------------------------
 
-function [CS,BD] = CellBlankingDefinition(BO,FP,CS_in,plan,T) 
+function [CS,BD] = CellBlankingDefinition(BO,FP,CS_in,plane,T) 
 % Function that defines blanking distances and cell sizes for each acoustic
 % beam, so that at the focal point, the same measurement cell number of
 % each beam intersect at its centroid. Outside the focal point,
-% measurements cells centres are equals on a given plan. 
+% measurements cells centres are equals on a given plane. 
 
 % inputs: 
 % - BO:     Beam origin coordinates. b x 3 matrix containg x y z Cartesian 
@@ -18,8 +18,9 @@ function [CS,BD] = CellBlankingDefinition(BO,FP,CS_in,plan,T)
 %           coordinates of the focal point in meter, in the same reference 
 %           frame as beam origin.
 % - CS_in:  Single value. Approx. desired cell size in meter (m).
-% - plan:   Plan on which the measurements cells centres are equals for each
+% - plane:   Plane on which the measurements cells centres are equals for each
 %           Acoustic beam along the profile (1 = zy, 2 = zx, 3 = xy)
+% - T :     Transformation matrix
 
 % Outputs:
 % - CS:     Vector of length b, where b is the number of beam. Contains the 
