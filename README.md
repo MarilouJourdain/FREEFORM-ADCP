@@ -3,7 +3,7 @@
 A MATLAB toolbox enabling:  1) Acquisition of 3D velocity from Acoustic Doppler Current Profilers (ADCPs), 2) Acoustic beam and bin mapping, 3) Acoustic beam orientations definition as function of a target focal point. This toolbox applies to monostatic ultrasonic profiling systems of arbitrary geometry (any number of transducer and orientation, convergeant or divergeant configuration). This toolbox aims to facilitate the development and operation of actuated Converging-beam ADCPs and distributed ADCPs. 
 
 ### Requirements 
-This toolbox is developed in MATLAB R2022b, thus its system requirements are identical to those of MATLAB. 
+This toolbox is developed in MATLAB R2022b, thus its system requirements are identical to those of MATLAB. Make sure that the toolbox folders and subfolders are in the Matlab path.
 
 ### Toolbox description 
 The toolbox includes two folders: "Functions" and "Examples". 
