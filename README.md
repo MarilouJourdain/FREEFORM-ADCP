@@ -1,21 +1,14 @@
-# ADP Array Matlab toolbox 
+# ARBGEOM-ADCP: A toolbox for the design and operation of monostatic ultrasonic profiling systems of arbitrary geometry with applications to the use of standard Acoustic Doppler Current Profilers (ADCPs) and novel distributed systems including convergent-beam ADCPs
 
-Written in Matlab version R2022b.
+A MATLAB toolbox enabling:  1) Acquisition of 3D velocity from Acoustic Doppler Current Profilers (ADCPs), 2) Acoustic beam and bin mapping, 3) Acoustic beam orientations definition as function of a target focal point. This toolbox applies to monostatic ultrasonic profiling systems of arbitrary geometry (any number of transducer and orientation, convergeant or divergeant configuration). This toolbox aims to facilitate the development and operation of actuated Converging-beam ADCPs and distributed ADCPs. 
 
-Array of Acoustic Doppler Profiler system: Array design and velocity processing toolbox
+### Requirements 
+This toolbox is developed in MATLAB R2022b, thus its system requirements are identical to those of MATLAB. 
 
-<a href="https://google.com"> DOI link TBD </a>
-
-### Purpose
-
-These tools enable the design of Acoustic Doppler Profiler arrays of any geometry  along with the conversion of acquired along-beam velocities to the Cartesian components of velocity.
-
-
-### Documentation
+### Toolbox description 
 The toolbox includes two folders: "Functions" and "Examples". 
 
 #### Functions
-
 
 - **ConversionBeam2Cartesian.m**: Function that transforms beam velocities into Cartesian components of velocity for every measurement cell along the profile and for every timestamp. 
 
@@ -53,8 +46,7 @@ _[CS,BD] = CellBlankingDefinition(BO,FP,CS_in,plan,T)_
 - plan:   Plan on which the measurements cells centres are equals for each  Acoustic beam along the profile (1 = zy, 2 = zx, 3 = xy).
 
 
-
-### Examples 
+#### Examples 
 
 - **Example1\_Define\_CADP.m:** Define beam orientation angles, cell sizes and blanking distances for a fixed 9 beam C-ADP in a circular configuration. 
     
@@ -64,10 +56,12 @@ _[CS,BD] = CellBlankingDefinition(BO,FP,CS_in,plan,T)_
 
 - **Example4\_Cartesian\_Vel\_from\_horizontal\_CADP.m:** Convert velocity acquired with a horizontal C-ADP from along beam velocities to Cartesian component of velocity from example acquired data: "Example\_Beam\_data\_sync.mat".
 
+### Further detail and cite this work 
+<a href="https://google.com"> DOI link TBD </a> 
 
-### Citing ADP Array Toolbox 
-Using ADP Array Toolbox in your work? Cite as: 
-TBD
+### Licence 
+The code is lisenced under GNU General Public License v3.0
 
---- 
-copyrights below.. 
+
+
+
