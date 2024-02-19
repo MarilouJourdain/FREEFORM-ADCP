@@ -57,6 +57,8 @@ _[CS,BD] = CellBlankingDefinition(BO,FP,CS_in,plan,T)_
 - **Example4\_Cartesian\_Vel\_from\_horizontal\_CADP.m:** Convert velocity acquired with a horizontal C-ADP from along beam velocities to Cartesian component of velocity from example acquired data: "Example\_Beam\_data\_sync.mat".
 
 ### Further detail and cite this work 
+Further details regarding the mathemaical derivations can be found in: Jourdain de Thieulloy M (2023), Performance assessment of a prototype laboratory-scale Converging Acoustic Doppler Profiler velocimeter under varying geometrical configurations, PhD Dissertation, The University of Edinburgh. <a href="https://google.com">  link TBD </a> 
+
 <a href="https://google.com"> DOI link TBD </a> 
 
 ### Licence 
