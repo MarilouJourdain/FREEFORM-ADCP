@@ -4,7 +4,7 @@
 
 % Function: ------- CellBlankingDefintion ---------------------------------
 
-function [CS,BD] = CellBlankingDefinition(BO,FP,CS_in,plane,T) 
+function [CS,BD] = CellBlankingDefinition(BO,FP,CS_in,plan,T) 
 % Function that defines blanking distances and cell sizes for each acoustic
 % beam, so that at the focal point, the same measurement cell number of
 % each beam intersect at its centroid. Outside the focal point,
