@@ -26,7 +26,7 @@ FP = [0,1,10]; % x, y, z focal point
 CS_in = 1;
 % Definition of plan on which the measurements cells centres are equals for 
 % each Acoustic beam along the profile (1 = zy, 2 = zx, 3 = xy)
-plan = 3; 
+plane = 3; 
 % Definition of number of meaurement cells (until max range)
 NC = 11; 
 
@@ -40,7 +40,7 @@ NC = 11;
 % Function that defines blanking distances and cell sizes for each acoustic
 % beam, so that at the focal point, the same measurement cell number of
 % each beam interesect at its centroid.
-[CS,BD] = CellBlankingDefinition(BO,FP,CS_in,plan,T);
+[CS,BD] = CellBlankingDefinition(BO,FP,CS_in,plane,T);
 
 % Function that calculates the centroid of each measurement cells in 
 % Cartesian corrdinates, in the same reference frame as the beam origins.
