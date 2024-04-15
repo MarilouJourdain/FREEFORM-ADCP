@@ -20,9 +20,9 @@ BO = [  0.01, 0.96, 0.988; ... % x, y, z beam 1
 FP = [4.421 0.012  0.988]; % x,y,z
 % Defition of desired approximate cell size for all beams
 CS_in = 0.4;
-% Definition of plan on which the measurements cells centres are equals for 
+% Definition of plane on which the measurements cells centres are equals for 
 % each Acoustic beam along the profile (1 = zy, 2 = zx, 3 = xy)
-plan = 1; 
+plane = 1; 
 % Definition of number of meaurement cells (until max range)
 NC = 20; 
 % Load measured example of measured along-beam velocities
@@ -39,7 +39,7 @@ N = 11; % Measurement cell number for velocity plot
 % Function that defines blanking distances and cell sizes for each acoustic
 % beam, so that at the focal point, the same measurement cell number of
 % each beam interesect at its centroid.
-[CS,BD] = CellBlankingDefinition(BO,FP,CS_in,plan,T);
+[CS,BD] = CellBlankingDefinition(BO,FP,CS_in,plane,T);
 
 G = BeamCellMappingCartesian(BO,T,NC,CS,BD);
 
