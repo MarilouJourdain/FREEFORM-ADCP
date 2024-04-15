@@ -24,7 +24,7 @@ BO = [  1.,  0 , 0; ...  % x, y, z beam 1
 FP = [0,1,10]; % x, y, z focal point
 % Defition of desired approximate cell size for all beams
 CS_in = 1;
-% Definition of plan on which the measurements cells centres are equals for 
+% Definition of plane on which the measurements cells centres are equals for 
 % each Acoustic beam along the profile (1 = zy, 2 = zx, 3 = xy)
 plane = 3; 
 % Definition of number of meaurement cells (until max range)
